@@ -58,23 +58,24 @@ int main(void) {
   double det;
   double Hilbert[N * N];
   double deth;
-  // int k;
-  // for (k = 0; k < 4; k++) {
-  //   switch (k) {
-  //   case 0:
-  //     fesetround(FE_TOWARDZERO);
-
-  //   case 1:
-  //     fesetround(FE_TONEAREST);
-
-  //   case 2:
-  //     fesetround(FE_DOWNWARD);
-
-  //   case 3:
-  //     fesetround(FE_UPWARD);
-  //   };
-  // }
-  // gauss_det(a, N, &det);
+  //   int k;
+  //   for (k = 0; k < 4; k++) {
+  //     switch (k) {
+  //     case 0:
+  //       fesetround(FE_TOWARDZERO);
+  //       break;
+  //     case 1:
+  //       fesetround(FE_TONEAREST);
+  //       break;
+  //     case 2:
+  //       fesetround(FE_DOWNWARD);
+  //       break;
+  //     case 3:
+  //       fesetround(FE_UPWARD);
+  //       break;
+  //     };
+  //   }
+  //   gauss_det(a, N, &det);
   creat_Hilbert(Hilbert, N);
   // for (int i = 0; i < N * N; i++) {
   //   printf("%f ", Hilbert[i]);
