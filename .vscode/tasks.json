@@ -1,0 +1,24 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "test", // 取个名字
+            "type": "shell",
+            "command": "gcc", // 执行的命令
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileBasenameNoExtension}"
+            ],
+            "group": {
+                // 从这里
+                "kind": "test",
+                "isDefault": true
+            }, // 到这里，设置为默认构建任务，按Ctrl+Shift+B立即执行，不必选择
+            "problemMatcher": "$gcc" // 问题匹配程序
+        }
+    ]
+}
