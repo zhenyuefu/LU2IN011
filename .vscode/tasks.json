@@ -9,6 +9,7 @@
             "command": "gcc", // 执行的命令
             "args": [
                 "-g",
+                "-lm",
                 "${file}",
                 "-o",
                 "${fileBasenameNoExtension}"
