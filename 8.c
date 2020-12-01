@@ -61,6 +61,7 @@ int newton(double *z, double (*f)(double), double (*fprime)(double), double a,
   *z = x;
   return 1;
 }
+
 int findzero(double *z, double (*f)(double), double (*fprime)(double), double a,
              double b, double eps) {
   if (bissection(z, f, a, b, 0.1) == 0) return 0;

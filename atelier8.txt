@@ -1,0 +1,21 @@
+Zhenyue Fu 28620112
+
+Résultats des différentes méthodes:
+-----------dichotomie----------
+f:1.386294
+g:-0.141593
+h:0.397163
+p:-1.000000
+-------------newton------------
+f:1.386294
+g:-0.141593
+h:0.397163
+p:-0.000000
+------------findzero-----------
+f:1.386294
+g:-0.141593
+h:0.397163
+p:-0.000000
+
+Notez que l'équation p a deux racines dans l'intervalle.
+Ainsi, des méthodes différentes ont des racines différentes.
